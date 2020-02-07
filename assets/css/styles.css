@@ -1,0 +1,40 @@
+.featured
+{
+    transform:translate(100%,-10%);
+}
+#image-section
+{
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    height:88%;
+    width:100%;
+}
+#event-image{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.icon-plane:hover
+{
+    cursor:pointer;
+    opacity: 0.8;
+}
+#date-block
+{
+    position: absolute;
+    top:6%;
+    left:6%;
+}
+#feature
+{
+    position:absolute;
+    top:50px;
+    right:0px;
+}
+#feature:hover
+{
+    mix-blend-mode: difference;
+}
+@media(min-width : 150px)
+{
+
+}
