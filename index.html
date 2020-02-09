@@ -15,17 +15,32 @@
 
 <body style="background-color:white; overflow-x: scroll; position: sticky;">
     <div id="front" class="front" style="width: 100%;height: 100%;margin: 0;filter: blur(0px) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%);opacity: 1;background-color: #111427;">
-        <h1 class="front-top font-algreya"><strong>Hello !</strong></h1>
-        <h3 class="front-top-sub font-algreya">Sign in to your account</h3>
-        <div class="form-group">
-            <form><input class="form-control upper-input" type="text" placeholder="Username, Phone Number"><input class="form-control" type="text" placeholder="Password">
-                <div id="forgot"><a id="forgotPass" class="forgotten font-sans" href="#">forgotten password?</a></div><button class="btn btn-primary" type="submit" style="background-color: #06de99;padding-top: 7px;padding-left: 30px;padding-right: 30px;padding-bottom: 7px;margin-top: 10%;border-width: 0px;"><strong>LOG IN</strong></button></form>
-            <div
-                style="padding-top: 10%;">
-                <p class="new-follege font-sans">New to follege?</p><a id="forgotPass" class="font-sans" href="#" style="color: #06de99;font-size: 120%;"><strong>SIGN UP</strong></a></div>
-    </div>
-    <p class="font-algreya" style="color: white;font-weight: bolder;font-size: 180%;text-align: center;margin-bottom: 0px;position: sticky;margin-top: 18%;">follege</p>
-    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="align-items: baseline; line-height: inherit; margin-top: 10%;">
+                    <h1 class="front-top font-algreya"><strong>Hello !</strong></h1>
+                    <h3 class="front-top-sub font-algreya">Sign in to your account</h3>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <form><input class="form-control upper-input" type="text" placeholder="Username, Phone Number"><input class="form-control" type="text" placeholder="Password">
+                            <div id="forgot"><a id="forgotPass" class="forgotten font-sans" href="#">forgotten password?</a></div><button class="btn btn-primary" type="submit" style="background-color: #06de99;padding-top: 7px;padding-left: 30px;padding-right: 30px;padding-bottom: 7px;margin-top: 10%;border-width: 0px;"><strong>LOG IN</strong></button></form>
+                        
+                </div>
+                
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
+                        <div style="padding-top: 0%;">
+                            <p class="new-follege font-sans">New to follege?</p><br><a id="forgotPass" class="font-sans" href="#" style="color: #06de99;font-size: 120%; text-align: center;"><strong>SIGN UP</strong></a></div>
+                            <p class="font-algreya" style="color: white;font-weight: bolder;font-size: 180%;text-align: center;margin-bottom: 0px;position: sticky;margin-top: 10%;">follege</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+       
 
     <div class="filter" style="height:40px; padding-right:0px; position: sticky; display:inline-flex; width:100%;">
         <ul id="filter-list" style="overflow-x:scroll; height:40px;" class="font-sans" >
@@ -770,6 +785,10 @@
             <div class="col-xs-4">7</div>
         </div>
     </div>
+    <script>
+        var login = document.getElementById('front');
+        login.style.height = screen.height;
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>

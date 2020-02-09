@@ -185,12 +185,12 @@ h3.front-top-sub {
 }
 
 .front {
-  padding-top: 20%;
+  padding-top: 5%;
   height: 100%;
   width: 100%;
   padding-bottom: 5%;
   overflow-y: hidden;
-  display: none;
+  display: block;
 }
 
 .form-control {
