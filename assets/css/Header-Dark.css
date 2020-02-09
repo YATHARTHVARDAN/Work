@@ -190,7 +190,7 @@ h3.front-top-sub {
   width: 100%;
   padding-bottom: 5%;
   overflow-y: hidden;
-  display: none;
+  display: block;
 }
 
 .form-control {
