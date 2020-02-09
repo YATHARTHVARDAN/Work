@@ -190,7 +190,7 @@ h3.front-top-sub {
   width: 100%;
   padding-bottom: 5%;
   overflow-y: hidden;
-  display: block;
+  display: none;
 }
 
 .form-control {
@@ -266,3 +266,4 @@ form {
 
 #card-label {
 }
+

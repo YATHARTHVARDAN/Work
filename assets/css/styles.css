@@ -34,7 +34,45 @@
 {
     mix-blend-mode: difference;
 }
-@media(min-width : 150px)
+.event-card
 {
-
+    display:inline-block;
+    float:none;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+#filter-list
+{
+    list-style-type: none;
+    background-color:transparent;
+}
+#filter-list > li
+{
+    border-radius: 10px;
+    border-color:black;
+    border-width:10px;
+    text-align:center;
+    padding-right:5px;
+    padding-top:0.5px;
+    padding-bottom:0.5px;
+    padding-left:5px;
+    width:max-content;
+    display: inline-block;
+    float:none;
+    margin-right:1%;
+    margin-left:1%;
+}
+li
+{
+    display:inline-flex;
+    border-width:2px;
+    font-size:110%;
+    border-top-color: black;
+    border-bottom-color:black;
+}
+ul
+{  width:100%;
+    display:inline-flex;
 }
